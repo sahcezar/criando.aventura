@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.webp "alt="cenario cachoeira">
+            <p>Um dia desses, meu avô me contou uma história passada de geração em geração por nossa família,  sobre um tesouro antigo escondido numa ilha. E ele me deu um papel com pistas para acha-lo e realizar o sonho dele.</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está localizada num barco atracado na praia</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a praia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Rio de Janiero </button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na praia, a busca pela próxima pista se intensifica. Você se depara com apenas dois barcos na praia, os dois velhos.</p>
+            <button class="btn-proximo" data-proximo="9">ir no barco vermelho</button>
+            <button class="btn-proximo" data-proximo="10">ir no barco azul</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Rio!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a praia no Rio</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você entra para vasculhar o barco e encontra um velho homem, o dono. Você conta a história e o homem decide te levar a ilha, você pergunta o porque e ele apenas diz que já ouviu essa história de um antigo melhor amigo.</p>
+            <button class="btn-proximo" data-proximo="11">ir e explorar a ilha</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O barco azul esta vazio e todo quebrado, voce tenta procurar por alguma pista mas não encontra nada.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro barco</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+    <img src="cenario-passo11.png" alt="cenario da ilha">
+            <p>Dentro da ilha, você explora a floresta e acha uma casa de madeira, lá dentro você encontra um enorme baú cheio de riquezas, moedas antigas e joias.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o barco vermelho, você encontra um senhor que vai levá-lo a ilha.</p>
+            <button class="btn-proximo" data-proximo="11">ir e explorar a ilha</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
